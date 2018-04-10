@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
 	"vmSize": {
-		"defaultValue": "Standard_DS3_v2"
+		"defaultValue": "Standard_DS3_v2",
 		"type": "string",
 		"allowedValues": [
 			"Standard_DS3_v2",
@@ -20,7 +20,8 @@
         "Password": {
             "defaultValue": null,
             "type": "SecureString"
-        } 
-    
+        }
+
   }
-}  
+}
+}
